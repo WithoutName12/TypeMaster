@@ -258,6 +258,7 @@
   .hero-button-flex {
     gap: 32px;
     margin-top: 32px;
+    width: auto;
   }
 
   .hero-button {
