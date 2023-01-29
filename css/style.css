@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 165px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ! header */
+
+header {
+  padding-top: 64px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button:link,
+.nav-button:visited {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+
+  background: #e8eff2;
+  border-radius: 8px;
+
+  padding: 16px 26px;
+
+  transition: all 0.3s;
+}
+
+.nav-button:hover,
+.nav-button:active {
+  color: #ffffff;
+
+  background: #162542;
+}
+
+/* ! hero */
+
+.hero {
+  margin-top: 83px;
+  background: url(../assets/shared/pattern-square.svg) top right -127.5px no-repeat;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary-heading-div {
+  width: 445px;
+  margin-bottom: 24px;
+}
+
+.primary-heading {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+
+  text-transform: uppercase;
+
+  color: #162542;
+}
+
+.hero-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.hero-button-flex {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-button:link,
+.hero-button:visited {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background: #f16718;
+  border-radius: 8px;
+  width: 175px;
+
+  padding: 16px 26px;
+
+  transition: all 0.3s;
+}
+
+.hero-button:hover,
+.hero-button:active {
+  background: #ff9b62;
+}
+
+.hero-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7b8bad;
+}
+
+.hero-img {
+  height: 480px;
+  border-radius: 20px;
+}
+
+/* ! hero2 */
+
+.hero2 {
+  margin-top: 30px;
+  background: url(../assets/shared/pattern-square.svg) bottom left -127.5px no-repeat;
+}
+
+.hero2-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero2-img-div {
+  display: flex;
+  gap: 30px;
+}
+
+.hero2-img-filter {
+  background-color: #f16718;
+  border-radius: 20px;
+  height: 480px;
+}
+
+.small {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+.hero2-img {
+  border-radius: 20px;
+  height: 480px;
+  z-index: -1;
+}
+
+.hero2-h2-div {
+  width: 255px;
+  margin-bottom: 27px;
+}
+
+.hero2-h2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.hero2-p-div {
+  width: 255px;
+}
+
+.hero2-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+/* ! footer */
+
+footer {
+  margin-top: 168px;
+  margin-bottom: 128px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+
+.logo-block {
+  background: #f16718;
+  border-radius: 16px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 48px;
+}
+
+.footer-h3-div {
+  width: 200px;
+  margin-bottom: 24px;
+}
+
+.footer-h3 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.footer-text-div {
+  width: 255px;
+}
+
+.footer-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.copyright {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.bold {
+  font-weight: 700;
+}
